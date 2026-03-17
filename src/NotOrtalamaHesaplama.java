@@ -30,5 +30,6 @@ public class NotOrtalamaHesaplama {
 
         //String result=ort >=60 ? "Sınıfı Geçti" : "Sınıfta Kaldı";
         System.out.print(ort >=60 ? "Sınıfı Geçti" : "Sınıfta Kaldı");
+        sc.close();
     }
 }
