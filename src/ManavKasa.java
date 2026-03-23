@@ -23,6 +23,8 @@ public class ManavKasa {
 
         result = (armut * armutKg) + (elma * elmaKg) + (domates * domatesKg) + (muzKg * muz) + (patlican * patlicanKg);
         System.out.printf("Toplam tutar: %.2f ", result);
+
+        sc.close();
     }
 
 }

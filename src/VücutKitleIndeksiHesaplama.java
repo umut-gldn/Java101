@@ -14,5 +14,7 @@ public class VücutKitleIndeksiHesaplama {
 
         result=weight/(height*height);
         System.out.printf("Vücut Kitle Endeksin: %.2f ",result);
+
+        sc.close();
     }
 }
