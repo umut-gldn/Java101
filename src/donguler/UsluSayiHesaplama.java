@@ -13,35 +13,34 @@ public class UsluSayiHesaplama {
         System.out.print("Üs olacak sayı: ");
         us = sc.nextInt();
 
-      
-        int mutlakUs=Math.abs(us);
-        double result=1;
-      
-      
-            for(int i=1;i<=mutlakUs;i++){
-                result =result*taban;
-            }
-            if(us<0){
-                result=1/result;
-            }
-            System.out.println("Sonuç: "+result);
-      
-        /*  if (us < 0) {
+        int mutlakUs = Math.abs(us);
+        double result = 1;
 
-            double result = 1;
-            for (int i = 1; i <= -us; i++) {
-                result = result * taban;
-            }
-            System.out.println("Sonuç: "+(1.0/result));
+        for (int i = 1; i <= mutlakUs; i++) {
+            result = result * taban;
         }
-        else{
-            int result=1;
-             for (int i = 1; i <= us; i++) {
-                result = result * taban;
-            }
-         System.out.println("Sonuç: " + result);
+        if (us < 0) {
+            result = 1 / result;
         }
-        */
+        System.out.println("Sonuç: " + result);
+
+        /*
+         * if (us < 0) {
+         * 
+         * double result = 1;
+         * for (int i = 1; i <= -us; i++) {
+         * result = result * taban;
+         * }
+         * System.out.println("Sonuç: "+(1.0/result));
+         * }
+         * else{
+         * int result=1;
+         * for (int i = 1; i <= us; i++) {
+         * result = result * taban;
+         * }
+         * System.out.println("Sonuç: " + result);
+         * }
+         */
         sc.close();
     }
 }
