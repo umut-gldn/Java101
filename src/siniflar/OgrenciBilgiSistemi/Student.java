@@ -1,4 +1,4 @@
-package sınıflar.OgrenciBilgiSistemi;
+package siniflar.OgrenciBilgiSistemi;
 
 public class Student {
     String name;
