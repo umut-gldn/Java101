@@ -1,4 +1,4 @@
-package donguler;
+package metotlar;
 
 import java.util.Scanner;
 
